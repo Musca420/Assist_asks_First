@@ -1,0 +1,11 @@
+language: "it"
+intents:
+  Answer:
+    data:
+      - sentences:
+          - "Yes"
+          - "ok"
+          - "fine"
+          - "that's fine"
+
+     
