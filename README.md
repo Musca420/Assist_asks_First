@@ -1,4 +1,4 @@
-# assist_asks
+# Assist asks a Question, depends of the question and of ouw answer, an acion wil be trigger
 This is for set it up: a question is asked under a specific condition by satellite. Depending on the question asked, a “Yes” or “No” response will trigger an action.
 This all begins by creating two input texts;  input_text.yes_no and input_text.intent_id. The first will be used to write the response, and the second provides a reference for what the response pertains to.
 
