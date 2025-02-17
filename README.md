@@ -8,7 +8,7 @@ Next, we create a Custom Sentence and an Intent Script. In the Custom Sentence, 
 HOW TO USE IT:
 
 1) CREATE 2 INPUT TEXT (YOU CAN CREATE IT FROM HELPERS). NAME IT AS input_text.yes_no AND THE SECOND ONE input_text.intent_id
-2) UPLOAD Answer.yaml in : homeassistant/custom_sentence_/en/ (if you don't have, create those folders)
+2) UPLOAD Answer.yaml in : homeassistant/custom_sentence/en/ (if you don't have, create those folders)
 3) COPY THE CONTENT OF INTENT_SCRIPT FOLDER IN YOUR CONFIGURATION.YAML FILE
 4) REBOOT HOME ASSISTANT
 5) INSTALL "NODE RED" INTEGRATION
