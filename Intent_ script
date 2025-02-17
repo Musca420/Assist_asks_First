@@ -1,0 +1,10 @@
+intent_script:
+  Answer:
+    description: "Set yes to input text yes no."
+    action:
+      - service: input_text.set_value
+        data:
+          entity_id: input_text.yes_no
+          value: "Yes"
+
+
