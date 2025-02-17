@@ -1,4 +1,4 @@
-# Assist asks a Question, depends of the question and of our answer, an action wil be trigger
+# Assist asks a Question, depends of the question and of our answer, an action will be trigger
 This is for set it up: a question is asked under a specific condition by satellite. Depending on the question asked, a “Yes” or “No” response will trigger an action.
 This all begins by creating two input texts;  input_text.yes_no and input_text.intent_id. The first will be used to write the response, and the second provides a reference for what the response pertains to.
 
@@ -34,7 +34,7 @@ SECOND PART
 SET UP:
 1) "Answer: Yes" SELECT ENTITY input_text.yes_no AND THE CONDITION MUST BE "IF STATE IS : Yes"
 2) "set answer to unknow" (THIS WILL RESET, AFTER 20 SEC. THE ANSWER TO "Unknow" TO BE READY TO OTHER AUTOMATION BASED ON THIS METHOD)
-3) "intent" THAT IS A CURRENT STATE NODE, JUST SELECT THE ENTITY input_text.intent_id AND LEAVE BLANK THE CONDITION "IF STATE IS" ( THIS WIL BE REPORT US EVERY CURRENT STATE OF  input_text.intent_id ).
+3) "intent" THAT IS A CURRENT STATE NODE, JUST SELECT THE ENTITY input_text.intent_id AND LEAVE BLANK THE CONDITION "IF STATE IS" ( THIS WILL BE REPORT US EVERY CURRENT STATE OF  input_text.intent_id ).
 4) "Which intentent?" THIS IS A SWITCH NODE, PUT THE SAME NAME OF WHAT YOU PUT IN YOUR ACTION (FIRST PART POINT 2) (IN MY EXAMPLE WE PUT EXACTLY Blinds
 5) "select your action" JUST TYPE THE ACTION YOU WANT TO HAPPEN. (IN THIS EXAMPLE WE WILL SELECT COVER OPEN AND AS ENTITY, MY COVER) 
 
